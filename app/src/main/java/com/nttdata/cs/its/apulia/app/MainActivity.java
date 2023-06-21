@@ -25,6 +25,21 @@ public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
 
     @Override
+    protected void  onStart() {
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
